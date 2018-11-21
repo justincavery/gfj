@@ -172,40 +172,47 @@
 		<div class="PSOFOShop" id="FOjdescComp">
 			<script type="text/javascript" language="JavaScript" src="https://emea3.recruitmentplatform.com/syndicated/lay/laydisplayrapido.cfm?component=lay9999_jdesc100a&amp;ID=PVBFK026203F3VBQB8M6G8NLI&amp;LG=UK&amp;mask=nucext&amp;browserchk=no"></script><script src="https://emea3.recruitmentplatform.com/syndicated/lay/jsoutputinitrapido.cfm?ID=PVBFK026203F3VBQB8M6G8NLI&amp;LG=UK&amp;mask=nucext&amp;mtbrwchk=nok&amp;browserchk=no&amp;nPostingID=9625&amp;nPostingTargetID=29905&amp;option=52&amp;sort=DESC&amp;respnr=1&amp;Resultsperpage=999&amp;page1=&amp;component=lay9999_jdesc100a&amp;rapido=false&amp;1542787615625"></script>
 
-<div id="JDescContent" style="position:relative;">
-<div style="display:none"><h1></h1><h2></h2></div>
-<h3 class="JD-Title" id="JDText-Title">
+<div  itemscope itemtype="http://schema.org/JobPosting" id="JDescContent" style="position:relative;">
+<!-- Removed the H1 and H2 tags and referneces to display none and updated the title to be a h1 -->
+<h1  itemprop="title" class="JD-Title" id="JDText-Title">
 Procurement Lead
-</h3>
+</h1>
+
 <div id="JD-TopParams">
 <div id="JD-Param2">
-<h4 class="JD-HDLabel" id="JDLabel-Param2">Job number:</h4>
+<!-- Updating the remaining H4's to be H2's to maintain semantic structure -->
+<h2 class="JD-HDLabel" id="JDLabel-Param2">Job number:</h2>
 <span class="JD-HDText" id="JDText-Param2">SP02652</span>
 </div>
 <div id="JD-Param3">
-<h4 class="JD-HDLabel" id="JDLabel-Param3">Functional Area: </h4>
-<span class="JD-HDText" id="JDText-Param3">Functions</span>
+<h2 class="JD-HDLabel" id="JDLabel-Param3">Functional Area: </h2>
+<span class="JD-HDText" itemprop="industry" id="JDText-Param3">Functions</span>
 </div>
 <div id="JD-Param4">
-<h4 class="JD-HDLabel" id="JDLabel-Param4">Profession: </h4>
-<span class="JD-HDText" id="JDText-Param4">Procurement &amp; Commercial</span>
+<h2 class="JD-HDLabel" id="JDLabel-Param4">Profession: </h2>
+<span class="JD-HDText" itemprop="occupationalCategory" id="JDText-Param4">Procurement &amp; Commercial</span>
 </div>
-<div id="JD-Param5">
-<h4 class="JD-HDLabel" id="JDLabel-Param5">Location:</h4>
-<span class="JD-HDText" id="JDText-Param5">Sellafield</span>
+<div id="JD-Param5"  itemprop="jobLocation" itemscope itemtype="http://schema.org/Place">
+<h2 class="JD-HDLabel" id="JDLabel-Param5">Location:</h2>
+<span class="JD-HDText" id="JDText-Param5"  itemprop="address">Sellafield</span>
 </div>
 <div id="JD-Param6">
-<h4 class="JD-HDLabel" id="JDLabel-Param6">Contract type:  </h4>
+<h2 class="JD-HDLabel" id="JDLabel-Param6">Contract type:  </h2>
 <span class="JD-HDText" id="JDText-Param6">Permanent contract</span>
 </div>
 <div id="JD-Param7">
-<h4 class="JD-HDLabel" id="JDLabel-Param7">Posting date: </h4>
-<span class="JD-HDText" id="JDText-Param7">14-Nov-2018</span>
+<h2 class="JD-HDLabel" id="JDLabel-Param7">Posting date: </h2>
+<!-- Date needs to be in an ISO format -->
+<span itemprop="datePosted" class="JD-HDText" id="JDText-Param7">14-11-2018</span>
+</div>
+<!-- Add in a hidden field to show Sellafield is the hiring organisation -->
+<div style="display:none;"  itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization">
+    <span itemprop="name">Sellafield</span>
 </div>
 </div>
-<div id="JD-AllFields">
+<div id="JD-AllFields" itemprop="description">
 <div id="JD-Field1">
-<h5 class="JD-FieldLabel" id="JDLabel-Field1">Vacancy Details</h5>
+<h2 class="JD-FieldLabel" id="JDLabel-Field1">Vacancy Details</h2>
 <span class="JD-FieldText" id="JDText-Field1"><p>Are you a high performing Procurement Lead? Do you have a thirst for knowledge and a&nbsp;passion for partnership working? Are you interested in working within the Nuclear Industry?</p>
 <p>Sellafield Ltd currently has opportunities within our Supply Chain Directorate.</p>
 <p>Sellafield Ltd is transforming. We are preparing for the mission change and have defined the organisation we want to be in ten years’ time – how we operate internally, our size and shape, the way we work with the supply chain, and our ability to maximise wider opportunities in the future.</p>
@@ -213,7 +220,7 @@ Procurement Lead
 <p>We have a number of vacancies across the directorate for Procurement Leads which may fit your background and experience.</p></span>
 </div>
 <div id="JD-Field2">
-<h5 class="JD-FieldLabel" id="JDLabel-Field2">Overview of Roles</h5>
+<h3 class="JD-FieldLabel" id="JDLabel-Field2">Overview of Roles</h5>
 <span class="JD-FieldText" id="JDText-Field2"><p><strong>EHS&amp;Q, HR, Finance, Supply Chain, based at&nbsp;Banna Court, Cumbria.&nbsp;</strong></p>
 <p>The role will be based in the Supply Chain Directorate and supports the Business Services Category.Responsible for the procurement and management of contracts such as Contingent Labour recruitment, Training and Business Travel for Sellafield and across the wider NDA estate under the Shared Services Alliance. The Procurement Lead role will manage a team of 6 and will report directly to the Business Services Category Manager. The ideal candidate will have OJEU experience or have worked in a regulated environment, with relevant experience in collaborative procurement of recruitment, training and travel services.</p>
 <p><strong>Category - based at Albion Square, Cumbria. </strong></p>
@@ -222,7 +229,7 @@ Procurement Lead
 <p>The role will be based in the Supply Chain Directorate and supports the Site Management Function. With a yearly contract spend of £30m covering contracts such as Civilian Guard Force, Transport, and maintenance. This is a high profile position that has a key role in ensuring the Sellafield Site can function safely and efficiently. The Procurement Lead role will manage a team of 3 and will report directly to the Category Manager for Facilities Management &amp; Infrastructure Services. The ideal candidate will have OJEU experience or have worked in a regulates environment, with relevant experience in Infrastructure services.</p></span>
 </div>
 <div id="JD-Field4">
-<h5 class="JD-FieldLabel" id="JDLabel-Field4">Essential/Desirable Skills</h5>
+<h3 class="JD-FieldLabel" id="JDLabel-Field4">Essential/Desirable Skills</h5>
 <span class="JD-FieldText" id="JDText-Field4"><p><strong>Essential Skills</strong></p>
 <ul>
 <li>Degree or equivalent experience within procurement.</li>
@@ -336,7 +343,7 @@ Procurement Lead
 					<div>
 						<div class="column column-3">
 							<div class="column-canvas">
-									<div><h3>SELLAFIELD LTD</h3>			<div class="textwidget"><p></p><h4>Operating Times</h4>
+									<div><h3>SELLAFIELD LTD</h3>			<div class="textwidget"><p></p><h2>Operating Times</h2>
 <p>08.10 - 16.20 Monday to Friday</p>
 <p>Registered Office:<br>
 <strong>Hinton House, Birchwood Park Avenue</strong><br>
